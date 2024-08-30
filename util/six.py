@@ -1,3 +1,11 @@
+'''
+Author: tianqi liutianqi@shoppal.ai
+Date: 2024-08-29 11:35:00
+LastEditors: tianqi liutianqi@shoppal.ai
+LastEditTime: 2024-08-30 16:19:25
+FilePath: /proxy_pool/util/six.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
@@ -30,7 +38,7 @@ else:
     from urlparse import urlparse
 
 if PY3:
-    from imp import reload as reload_six
+    from importlib import reload as reload_six
 else:
     reload_six = reload
 

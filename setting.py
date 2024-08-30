@@ -1,3 +1,11 @@
+'''
+Author: tianqi liutianqi@shoppal.ai
+Date: 2024-08-29 11:35:00
+LastEditors: tianqi liutianqi@shoppal.ai
+LastEditTime: 2024-08-30 16:41:12
+FilePath: /proxy_pool/setting.py
+Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+'''
 # -*- coding: utf-8 -*-
 """
 -------------------------------------------------
@@ -37,7 +45,7 @@ PORT = 5010
 # example:
 #      Redis: redis://:password@ip:port/db
 #      Ssdb:  ssdb://:password@ip:port
-DB_CONN = 'redis://:pwd@127.0.0.1:6379/0'
+DB_CONN = 'redis://127.0.0.1:6379/0'
 
 # proxy table name
 TABLE_NAME = 'use_proxy'
